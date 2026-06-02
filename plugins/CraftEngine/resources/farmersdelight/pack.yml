@@ -1,0 +1,4 @@
+author: port (CraftEngine) de Farmer's Delight
+version: 0.1.0
+description: Recreacion de Farmer's Delight para Paper via CraftEngine
+namespace: farmersdelight

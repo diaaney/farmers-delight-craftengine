@@ -1,0 +1,863 @@
+items:
+  farmersdelight:apple_cider:
+    material: apple
+    texture: farmersdelight:item/apple_cider
+    data:
+      item_name: <!i><lang:item.farmersdelight.apple_cider>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.1
+          can_always_eat: true
+  farmersdelight:apple_pie_slice:
+    material: apple
+    texture: farmersdelight:item/apple_pie_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.apple_pie_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:bacon:
+    material: apple
+    texture: farmersdelight:item/bacon
+    data:
+      item_name: <!i><lang:item.farmersdelight.bacon>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:bacon_and_eggs:
+    material: apple
+    texture: farmersdelight:item/bacon_and_eggs
+    data:
+      item_name: <!i><lang:item.farmersdelight.bacon_and_eggs>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:bacon_sandwich:
+    material: apple
+    texture: farmersdelight:item/bacon_sandwich
+    data:
+      item_name: <!i><lang:item.farmersdelight.bacon_sandwich>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:baked_cod_stew:
+    material: apple
+    texture: farmersdelight:item/baked_cod_stew
+    data:
+      item_name: <!i><lang:item.farmersdelight.baked_cod_stew>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:barbecue_stick:
+    material: apple
+    texture: farmersdelight:item/barbecue_stick
+    data:
+      item_name: <!i><lang:item.farmersdelight.barbecue_stick>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.9
+          can_always_eat: false
+  farmersdelight:beef_patty:
+    material: apple
+    texture: farmersdelight:item/beef_patty
+    data:
+      item_name: <!i><lang:item.farmersdelight.beef_patty>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:beef_stew:
+    material: apple
+    texture: farmersdelight:item/beef_stew
+    data:
+      item_name: <!i><lang:item.farmersdelight.beef_stew>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:bone_broth:
+    material: apple
+    texture: farmersdelight:item/bone_broth
+    data:
+      item_name: <!i><lang:item.farmersdelight.bone_broth>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.7
+          can_always_eat: false
+  farmersdelight:cabbage:
+    material: apple
+    texture: farmersdelight:item/cabbage
+    data:
+      item_name: <!i><lang:item.farmersdelight.cabbage>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:cabbage_leaf:
+    material: apple
+    texture: farmersdelight:item/cabbage_leaf
+    data:
+      item_name: <!i><lang:item.farmersdelight.cabbage_leaf>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:cabbage_rolls:
+    material: apple
+    texture: farmersdelight:item/cabbage_rolls
+    data:
+      item_name: <!i><lang:item.farmersdelight.cabbage_rolls>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.5
+          can_always_eat: false
+  farmersdelight:cabbage_seeds:
+    material: paper
+    texture: farmersdelight:item/cabbage_seeds
+    data:
+      item_name: <!i><lang:item.farmersdelight.cabbage_seeds>
+    behavior:
+      type: block_item
+      block: farmersdelight:cabbages
+  farmersdelight:cake_slice:
+    material: apple
+    texture: farmersdelight:item/cake_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.cake_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.1
+          can_always_eat: false
+  farmersdelight:canvas:
+    material: paper
+    texture: farmersdelight:item/canvas
+    data:
+      item_name: <!i><lang:item.farmersdelight.canvas>
+  farmersdelight:chicken_cuts:
+    material: apple
+    texture: farmersdelight:item/chicken_cuts
+    data:
+      item_name: <!i><lang:item.farmersdelight.chicken_cuts>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:chicken_sandwich:
+    material: apple
+    texture: farmersdelight:item/chicken_sandwich
+    data:
+      item_name: <!i><lang:item.farmersdelight.chicken_sandwich>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:chicken_soup:
+    material: apple
+    texture: farmersdelight:item/chicken_soup
+    data:
+      item_name: <!i><lang:item.farmersdelight.chicken_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:chocolate_pie_slice:
+    material: apple
+    texture: farmersdelight:item/chocolate_pie_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.chocolate_pie_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:cod_roll:
+    material: apple
+    texture: farmersdelight:item/cod_roll
+    data:
+      item_name: <!i><lang:item.farmersdelight.cod_roll>
+      $$>=1.20.5:
+        food:
+          nutrition: 7
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:cod_slice:
+    material: apple
+    texture: farmersdelight:item/cod_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.cod_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.1
+          can_always_eat: false
+  farmersdelight:cooked_bacon:
+    material: apple
+    texture: farmersdelight:item/cooked_bacon
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_bacon>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:cooked_chicken_cuts:
+    material: apple
+    texture: farmersdelight:item/cooked_chicken_cuts
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_chicken_cuts>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:cooked_cod_slice:
+    material: apple
+    texture: farmersdelight:item/cooked_cod_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_cod_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.5
+          can_always_eat: false
+  farmersdelight:cooked_mutton_chops:
+    material: apple
+    texture: farmersdelight:item/cooked_mutton_chops
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_mutton_chops>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:cooked_rice:
+    material: apple
+    texture: farmersdelight:item/cooked_rice
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_rice>
+      $$>=1.20.5:
+        food:
+          nutrition: 6
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:cooked_salmon_slice:
+    material: apple
+    texture: farmersdelight:item/cooked_salmon_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.cooked_salmon_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:diamond_knife:
+    material: iron_sword
+    texture: farmersdelight:item/diamond_knife
+    data:
+      item_name: <!i><lang:item.farmersdelight.diamond_knife>
+  farmersdelight:dog_food:
+    material: apple
+    texture: farmersdelight:item/dog_food
+    data:
+      item_name: <!i><lang:item.farmersdelight.dog_food>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.2
+          can_always_eat: false
+  farmersdelight:dumplings:
+    material: apple
+    texture: farmersdelight:item/dumplings
+    data:
+      item_name: <!i><lang:item.farmersdelight.dumplings>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:egg_sandwich:
+    material: apple
+    texture: farmersdelight:item/egg_sandwich
+    data:
+      item_name: <!i><lang:item.farmersdelight.egg_sandwich>
+      $$>=1.20.5:
+        food:
+          nutrition: 8
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:fish_stew:
+    material: apple
+    texture: farmersdelight:item/fish_stew
+    data:
+      item_name: <!i><lang:item.farmersdelight.fish_stew>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:flint_knife:
+    material: iron_sword
+    texture: farmersdelight:item/flint_knife
+    data:
+      item_name: <!i><lang:item.farmersdelight.flint_knife>
+  farmersdelight:fried_egg:
+    material: apple
+    texture: farmersdelight:item/fried_egg
+    data:
+      item_name: <!i><lang:item.farmersdelight.fried_egg>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:fried_rice:
+    material: apple
+    texture: farmersdelight:item/fried_rice
+    data:
+      item_name: <!i><lang:item.farmersdelight.fried_rice>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:fruit_salad:
+    material: apple
+    texture: farmersdelight:item/fruit_salad
+    data:
+      item_name: <!i><lang:item.farmersdelight.fruit_salad>
+      $$>=1.20.5:
+        food:
+          nutrition: 6
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:gleaming_salad:
+    material: apple
+    texture: farmersdelight:item/gleaming_salad
+    data:
+      item_name: <!i><lang:item.farmersdelight.gleaming_salad>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:glow_berry_custard:
+    material: apple
+    texture: farmersdelight:item/glow_berry_custard
+    data:
+      item_name: <!i><lang:item.farmersdelight.glow_berry_custard>
+      $$>=1.20.5:
+        food:
+          nutrition: 7
+          saturation: 0.6
+          can_always_eat: true
+  farmersdelight:golden_knife:
+    material: iron_sword
+    texture: farmersdelight:item/golden_knife
+    data:
+      item_name: <!i><lang:item.farmersdelight.golden_knife>
+  farmersdelight:grilled_salmon:
+    material: apple
+    texture: farmersdelight:item/grilled_salmon
+    data:
+      item_name: <!i><lang:item.farmersdelight.grilled_salmon>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:ham:
+    material: apple
+    texture: farmersdelight:item/ham
+    data:
+      item_name: <!i><lang:item.farmersdelight.ham>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:hamburger:
+    material: apple
+    texture: farmersdelight:item/hamburger
+    data:
+      item_name: <!i><lang:item.farmersdelight.hamburger>
+      $$>=1.20.5:
+        food:
+          nutrition: 11
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:honey_cookie:
+    material: paper
+    texture: farmersdelight:item/honey_cookie
+    data:
+      item_name: <!i><lang:item.farmersdelight.honey_cookie>
+  farmersdelight:honey_glazed_ham:
+    material: apple
+    texture: farmersdelight:item/honey_glazed_ham
+    data:
+      item_name: <!i><lang:item.farmersdelight.honey_glazed_ham>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:horse_feed:
+    material: paper
+    texture: farmersdelight:item/horse_feed
+    data:
+      item_name: <!i><lang:item.farmersdelight.horse_feed>
+  farmersdelight:hot_cocoa:
+    material: apple
+    texture: farmersdelight:item/hot_cocoa
+    data:
+      item_name: <!i><lang:item.farmersdelight.hot_cocoa>
+      $$>=1.20.5:
+        food:
+          nutrition: 0
+          saturation: 0.0
+          can_always_eat: true
+  farmersdelight:iron_knife:
+    material: iron_sword
+    texture: farmersdelight:item/iron_knife
+    data:
+      item_name: <!i><lang:item.farmersdelight.iron_knife>
+  farmersdelight:kelp_roll:
+    material: paper
+    texture: farmersdelight:item/kelp_roll
+    data:
+      item_name: <!i><lang:item.farmersdelight.kelp_roll>
+  farmersdelight:kelp_roll_slice:
+    material: apple
+    texture: farmersdelight:item/kelp_roll_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.kelp_roll_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 6
+          saturation: 0.5
+          can_always_eat: false
+  farmersdelight:melon_juice:
+    material: apple
+    texture: farmersdelight:item/melon_juice
+    data:
+      item_name: <!i><lang:item.farmersdelight.melon_juice>
+      $$>=1.20.5:
+        food:
+          nutrition: 0
+          saturation: 0.0
+          can_always_eat: true
+  farmersdelight:melon_popsicle:
+    material: paper
+    texture: farmersdelight:item/melon_popsicle
+    data:
+      item_name: <!i><lang:item.farmersdelight.melon_popsicle>
+  farmersdelight:milk_bottle:
+    material: apple
+    texture: farmersdelight:item/milk_bottle
+    data:
+      item_name: <!i><lang:item.farmersdelight.milk_bottle>
+      $$>=1.20.5:
+        food:
+          nutrition: 0
+          saturation: 0.0
+          can_always_eat: true
+  farmersdelight:minced_beef:
+    material: apple
+    texture: farmersdelight:item/minced_beef
+    data:
+      item_name: <!i><lang:item.farmersdelight.minced_beef>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:mixed_salad:
+    material: apple
+    texture: farmersdelight:item/mixed_salad
+    data:
+      item_name: <!i><lang:item.farmersdelight.mixed_salad>
+      $$>=1.20.5:
+        food:
+          nutrition: 6
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:mushroom_rice:
+    material: apple
+    texture: farmersdelight:item/mushroom_rice
+    data:
+      item_name: <!i><lang:item.farmersdelight.mushroom_rice>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:mutton_chops:
+    material: apple
+    texture: farmersdelight:item/mutton_chops
+    data:
+      item_name: <!i><lang:item.farmersdelight.mutton_chops>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:mutton_wrap:
+    material: apple
+    texture: farmersdelight:item/mutton_wrap
+    data:
+      item_name: <!i><lang:item.farmersdelight.mutton_wrap>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:nether_salad:
+    material: apple
+    texture: farmersdelight:item/nether_salad
+    data:
+      item_name: <!i><lang:item.farmersdelight.nether_salad>
+      $$>=1.20.5:
+        food:
+          nutrition: 5
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:netherite_knife:
+    material: iron_sword
+    texture: farmersdelight:item/netherite_knife
+    data:
+      item_name: <!i><lang:item.farmersdelight.netherite_knife>
+  farmersdelight:noodle_soup:
+    material: apple
+    texture: farmersdelight:item/noodle_soup
+    data:
+      item_name: <!i><lang:item.farmersdelight.noodle_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:onion:
+    material: apple
+    texture: farmersdelight:item/onion
+    data:
+      item_name: <!i><lang:item.farmersdelight.onion>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.4
+          can_always_eat: false
+    behavior:
+      type: block_item
+      block: farmersdelight:onions
+  farmersdelight:onion_soup:
+    material: apple
+    texture: farmersdelight:item/onion_soup
+    data:
+      item_name: <!i><lang:item.farmersdelight.onion_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:pasta_with_meatballs:
+    material: apple
+    texture: farmersdelight:item/pasta_with_meatballs
+    data:
+      item_name: <!i><lang:item.farmersdelight.pasta_with_meatballs>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:pasta_with_mutton_chop:
+    material: apple
+    texture: farmersdelight:item/pasta_with_mutton_chop
+    data:
+      item_name: <!i><lang:item.farmersdelight.pasta_with_mutton_chop>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:pie_crust:
+    material: apple
+    texture: farmersdelight:item/pie_crust
+    data:
+      item_name: <!i><lang:item.farmersdelight.pie_crust>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.2
+          can_always_eat: false
+  farmersdelight:pumpkin_pie_slice:
+    material: apple
+    texture: farmersdelight:item/pumpkin_pie_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.pumpkin_pie_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:pumpkin_slice:
+    material: apple
+    texture: farmersdelight:item/pumpkin_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.pumpkin_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:pumpkin_soup:
+    material: apple
+    texture: farmersdelight:item/pumpkin_soup
+    data:
+      item_name: <!i><lang:item.farmersdelight.pumpkin_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:ratatouille:
+    material: apple
+    texture: farmersdelight:item/ratatouille
+    data:
+      item_name: <!i><lang:item.farmersdelight.ratatouille>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:raw_pasta:
+    material: apple
+    texture: farmersdelight:item/raw_pasta
+    data:
+      item_name: <!i><lang:item.farmersdelight.raw_pasta>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.1
+          can_always_eat: false
+  farmersdelight:rice:
+    material: paper
+    texture: farmersdelight:item/rice
+    data:
+      item_name: <!i><lang:item.farmersdelight.rice>
+    behavior:
+      type: block_item
+      block: farmersdelight:rice
+  farmersdelight:rice_panicle:
+    material: paper
+    texture: farmersdelight:item/rice_panicle
+    data:
+      item_name: <!i><lang:item.farmersdelight.rice_panicle>
+  farmersdelight:roast_chicken:
+    material: apple
+    texture: farmersdelight:item/roast_chicken
+    data:
+      item_name: <!i><lang:item.farmersdelight.roast_chicken>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:roasted_mutton_chops:
+    material: apple
+    texture: farmersdelight:item/roasted_mutton_chops
+    data:
+      item_name: <!i><lang:item.farmersdelight.roasted_mutton_chops>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:rotten_tomato:
+    material: paper
+    texture: farmersdelight:item/rotten_tomato
+    data:
+      item_name: <!i><lang:item.farmersdelight.rotten_tomato>
+  farmersdelight:salmon_roll:
+    material: apple
+    texture: farmersdelight:item/salmon_roll
+    data:
+      item_name: <!i><lang:item.farmersdelight.salmon_roll>
+      $$>=1.20.5:
+        food:
+          nutrition: 7
+          saturation: 0.6
+          can_always_eat: false
+  farmersdelight:salmon_slice:
+    material: apple
+    texture: farmersdelight:item/salmon_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.salmon_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.1
+          can_always_eat: false
+  farmersdelight:shepherds_pie:
+    material: apple
+    texture: farmersdelight:item/shepherds_pie
+    data:
+      item_name: <!i><lang:item.farmersdelight.shepherds_pie>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:smoked_ham:
+    material: apple
+    texture: farmersdelight:item/smoked_ham
+    data:
+      item_name: <!i><lang:item.farmersdelight.smoked_ham>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:squid_ink_pasta:
+    material: apple
+    texture: farmersdelight:item/squid_ink_pasta
+    data:
+      item_name: <!i><lang:item.farmersdelight.squid_ink_pasta>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:steak_and_potatoes:
+    material: apple
+    texture: farmersdelight:item/steak_and_potatoes
+    data:
+      item_name: <!i><lang:item.farmersdelight.steak_and_potatoes>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:straw:
+    material: paper
+    texture: farmersdelight:item/straw
+    data:
+      item_name: <!i><lang:item.farmersdelight.straw>
+  farmersdelight:stuffed_potato:
+    material: apple
+    texture: farmersdelight:item/stuffed_potato
+    data:
+      item_name: <!i><lang:item.farmersdelight.stuffed_potato>
+      $$>=1.20.5:
+        food:
+          nutrition: 10
+          saturation: 0.7
+          can_always_eat: false
+  farmersdelight:stuffed_pumpkin:
+    material: apple
+    texture: farmersdelight:item/stuffed_pumpkin
+    data:
+      item_name: <!i><lang:item.farmersdelight.stuffed_pumpkin>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:sweet_berry_cheesecake_slice:
+    material: apple
+    texture: farmersdelight:item/sweet_berry_cheesecake_slice
+    data:
+      item_name: <!i><lang:item.farmersdelight.sweet_berry_cheesecake_slice>
+      $$>=1.20.5:
+        food:
+          nutrition: 3
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:sweet_berry_cookie:
+    material: paper
+    texture: farmersdelight:item/sweet_berry_cookie
+    data:
+      item_name: <!i><lang:item.farmersdelight.sweet_berry_cookie>
+  farmersdelight:tomato:
+    material: apple
+    texture: farmersdelight:item/tomato
+    data:
+      item_name: <!i><lang:item.farmersdelight.tomato>
+      $$>=1.20.5:
+        food:
+          nutrition: 1
+          saturation: 0.3
+          can_always_eat: false
+  farmersdelight:tomato_sauce:
+    material: apple
+    texture: farmersdelight:item/tomato_sauce
+    data:
+      item_name: <!i><lang:item.farmersdelight.tomato_sauce>
+      $$>=1.20.5:
+        food:
+          nutrition: 4
+          saturation: 0.4
+          can_always_eat: false
+  farmersdelight:tomato_seeds:
+    material: paper
+    texture: farmersdelight:item/tomato_seeds
+    data:
+      item_name: <!i><lang:item.farmersdelight.tomato_seeds>
+    behavior:
+      type: block_item
+      block: farmersdelight:tomatoes
+  farmersdelight:tree_bark:
+    material: paper
+    texture: farmersdelight:item/tree_bark
+    data:
+      item_name: <!i><lang:item.farmersdelight.tree_bark>
+  farmersdelight:vegetable_noodles:
+    material: apple
+    texture: farmersdelight:item/vegetable_noodles
+    data:
+      item_name: <!i><lang:item.farmersdelight.vegetable_noodles>
+      $$>=1.20.5:
+        food:
+          nutrition: 14
+          saturation: 0.75
+          can_always_eat: false
+  farmersdelight:vegetable_soup:
+    material: apple
+    texture: farmersdelight:item/vegetable_soup
+    data:
+      item_name: <!i><lang:item.farmersdelight.vegetable_soup>
+      $$>=1.20.5:
+        food:
+          nutrition: 12
+          saturation: 0.8
+          can_always_eat: false
+  farmersdelight:wheat_dough:
+    material: apple
+    texture: farmersdelight:item/wheat_dough
+    data:
+      item_name: <!i><lang:item.farmersdelight.wheat_dough>
+      $$>=1.20.5:
+        food:
+          nutrition: 2
+          saturation: 0.3
+          can_always_eat: false

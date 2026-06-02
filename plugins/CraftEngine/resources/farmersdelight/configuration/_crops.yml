@@ -1,0 +1,425 @@
+blocks:
+  farmersdelight:cabbages:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        item: farmersdelight:cabbage_seeds
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:farmland
+    - type: crop_block
+      grow_speed: 0.25
+      light_requirement: 9
+      is_bone_meal_target: true
+      bone_meal_age_bonus: 1
+    loot:
+      template: default:loot_table/seed_crop
+      arguments:
+        crop_item: farmersdelight:cabbage
+        crop_seed: farmersdelight:cabbage_seeds
+        ripe_age: 7
+    events:
+    - 'on': right_click
+      conditions:
+      - type: match_block_property
+        properties:
+          age: 7
+      - type: hand
+        hand: main_hand
+      - type: '!has_item'
+      functions:
+      - type: break_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+      - type: place_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+        block_state: farmersdelight:cabbages[age=0]
+      - type: swing_hand
+      - type: update_interaction_tick
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 7
+      appearances:
+        stage_0:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage0
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage0
+        stage_1:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage1
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage1
+        stage_2:
+          auto_state: sugar_cane
+          models:
+          - path: farmersdelight:block/cabbages_stage2
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage2
+        stage_3:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage3
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage3
+        stage_4:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage4
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage4
+        stage_5:
+          auto_state: sugar_cane
+          models:
+          - path: farmersdelight:block/cabbages_stage5
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage5
+        stage_6:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage6
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage6
+        stage_7:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/cabbages_stage7
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/cabbages_stage7
+      variants:
+        age=0:
+          appearance: stage_0
+        age=1:
+          appearance: stage_1
+        age=2:
+          appearance: stage_2
+        age=3:
+          appearance: stage_3
+        age=4:
+          appearance: stage_4
+        age=5:
+          appearance: stage_5
+        age=6:
+          appearance: stage_6
+        age=7:
+          appearance: stage_7
+  farmersdelight:tomatoes:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        item: farmersdelight:tomato_seeds
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:farmland
+    - type: crop_block
+      grow_speed: 0.25
+      light_requirement: 9
+      is_bone_meal_target: true
+      bone_meal_age_bonus: 1
+    loot:
+      template: default:loot_table/seed_crop
+      arguments:
+        crop_item: farmersdelight:tomato
+        crop_seed: farmersdelight:tomato_seeds
+        ripe_age: 3
+    events:
+    - 'on': right_click
+      conditions:
+      - type: match_block_property
+        properties:
+          age: 3
+      - type: hand
+        hand: main_hand
+      - type: '!has_item'
+      functions:
+      - type: break_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+      - type: place_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+        block_state: farmersdelight:tomatoes[age=0]
+      - type: swing_hand
+      - type: update_interaction_tick
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 3
+      appearances:
+        stage_0:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/tomatoes_stage0
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/tomatoes_stage0
+        stage_1:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/tomatoes_stage1
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/tomatoes_stage1
+        stage_2:
+          auto_state: sugar_cane
+          models:
+          - path: farmersdelight:block/tomatoes_stage2
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/tomatoes_stage2
+        stage_3:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/tomatoes_stage3
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/tomatoes_stage3
+      variants:
+        age=0:
+          appearance: stage_0
+        age=1:
+          appearance: stage_1
+        age=2:
+          appearance: stage_2
+        age=3:
+          appearance: stage_3
+  farmersdelight:onions:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        item: farmersdelight:onion
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:farmland
+    - type: crop_block
+      grow_speed: 0.25
+      light_requirement: 9
+      is_bone_meal_target: true
+      bone_meal_age_bonus: 1
+    loot:
+      template: default:loot_table/seed_crop
+      arguments:
+        crop_item: farmersdelight:onion
+        crop_seed: farmersdelight:onion
+        ripe_age: 7
+    events:
+    - 'on': right_click
+      conditions:
+      - type: match_block_property
+        properties:
+          age: 7
+      - type: hand
+        hand: main_hand
+      - type: '!has_item'
+      functions:
+      - type: break_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+      - type: place_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+        block_state: farmersdelight:onions[age=0]
+      - type: swing_hand
+      - type: update_interaction_tick
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 7
+      appearances:
+        stage_0:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/onions_stage0
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/onions_stage0
+        stage_1:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/onions_stage1
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/onions_stage1
+        stage_2:
+          auto_state: sugar_cane
+          models:
+          - path: farmersdelight:block/onions_stage2
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/onions_stage2
+        stage_3:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/onions_stage3
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/onions_stage3
+      variants:
+        age=0:
+          appearance: stage_0
+        age=1:
+          appearance: stage_0
+        age=2:
+          appearance: stage_1
+        age=3:
+          appearance: stage_1
+        age=4:
+          appearance: stage_2
+        age=5:
+          appearance: stage_2
+        age=6:
+          appearance: stage_2
+        age=7:
+          appearance: stage_3
+  farmersdelight:rice:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        item: farmersdelight:rice
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_blocks:
+      - minecraft:farmland
+    - type: crop_block
+      grow_speed: 0.25
+      light_requirement: 9
+      is_bone_meal_target: true
+      bone_meal_age_bonus: 1
+    loot:
+      template: default:loot_table/seed_crop
+      arguments:
+        crop_item: farmersdelight:rice
+        crop_seed: farmersdelight:rice
+        ripe_age: 3
+    events:
+    - 'on': right_click
+      conditions:
+      - type: match_block_property
+        properties:
+          age: 3
+      - type: hand
+        hand: main_hand
+      - type: '!has_item'
+      functions:
+      - type: break_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+      - type: place_block
+        x: <arg:block.block_x>
+        y: <arg:block.block_y>
+        z: <arg:block.block_z>
+        block_state: farmersdelight:rice[age=0]
+      - type: swing_hand
+      - type: update_interaction_tick
+    states:
+      properties:
+        age:
+          type: int
+          default: 0
+          min: 0
+          max: 3
+      appearances:
+        stage_0:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/rice_stage0
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/rice_stage0
+        stage_1:
+          auto_state: higher_tripwire
+          models:
+          - path: farmersdelight:block/rice_stage1
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/rice_stage1
+        stage_2:
+          auto_state: sugar_cane
+          models:
+          - path: farmersdelight:block/rice_stage2
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/rice_stage2
+        stage_3:
+          auto_state: lower_tripwire
+          models:
+          - path: farmersdelight:block/rice_stage3
+            generation:
+              parent: minecraft:block/cross
+              textures:
+                cross: farmersdelight:block/rice_stage3
+      variants:
+        age=0:
+          appearance: stage_0
+        age=1:
+          appearance: stage_1
+        age=2:
+          appearance: stage_2
+        age=3:
+          appearance: stage_3

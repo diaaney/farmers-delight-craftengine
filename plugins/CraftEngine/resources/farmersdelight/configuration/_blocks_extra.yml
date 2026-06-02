@@ -1,0 +1,3559 @@
+items:
+  farmersdelight:wild_cabbages:
+    material: paper
+    model: farmersdelight:block/wild_cabbages
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_cabbages>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_cabbages
+  farmersdelight:wild_beetroots:
+    material: paper
+    model: farmersdelight:block/wild_beetroots
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_beetroots>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_beetroots
+  farmersdelight:wild_carrots:
+    material: paper
+    model: farmersdelight:block/wild_carrots
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_carrots>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_carrots
+  farmersdelight:wild_onions:
+    material: paper
+    model: farmersdelight:block/wild_onions
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_onions>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_onions
+  farmersdelight:wild_potatoes:
+    material: paper
+    model: farmersdelight:block/wild_potatoes
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_potatoes>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_potatoes
+  farmersdelight:wild_tomatoes:
+    material: paper
+    model: farmersdelight:block/wild_tomatoes
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_tomatoes>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_tomatoes
+  farmersdelight:wild_rice:
+    material: paper
+    model: farmersdelight:block/wild_rice_bottom
+    data:
+      item_name: <!i><lang:block.farmersdelight.wild_rice>
+    behavior:
+      type: block_item
+      block: farmersdelight:wild_rice
+  farmersdelight:sandy_shrub:
+    material: paper
+    model: farmersdelight:block/sandy_shrub
+    data:
+      item_name: <!i><lang:block.farmersdelight.sandy_shrub>
+    behavior:
+      type: block_item
+      block: farmersdelight:sandy_shrub
+  farmersdelight:brown_mushroom_colony:
+    material: paper
+    model: farmersdelight:block/brown_mushroom_colony_stage3
+    data:
+      item_name: <!i><lang:block.farmersdelight.brown_mushroom_colony>
+    behavior:
+      type: block_item
+      block: farmersdelight:brown_mushroom_colony
+  farmersdelight:red_mushroom_colony:
+    material: paper
+    model: farmersdelight:block/red_mushroom_colony_stage3
+    data:
+      item_name: <!i><lang:block.farmersdelight.red_mushroom_colony>
+    behavior:
+      type: block_item
+      block: farmersdelight:red_mushroom_colony
+  farmersdelight:budding_tomatoes:
+    material: paper
+    model: farmersdelight:block/budding_tomatoes_stage3
+    data:
+      item_name: <!i><lang:block.farmersdelight.budding_tomatoes>
+    behavior:
+      type: block_item
+      block: farmersdelight:budding_tomatoes
+  farmersdelight:rice_panicles:
+    material: paper
+    model: farmersdelight:block/rice_panicles_stage3
+    data:
+      item_name: <!i><lang:block.farmersdelight.rice_panicles>
+    behavior:
+      type: block_item
+      block: farmersdelight:rice_panicles
+  farmersdelight:tomatoes_on_rope:
+    material: paper
+    model: farmersdelight:block/tomatoes_on_rope_stage3
+    data:
+      item_name: <!i><lang:block.farmersdelight.tomatoes_on_rope>
+    behavior:
+      type: block_item
+      block: farmersdelight:tomatoes_on_rope
+  farmersdelight:carrot_crate:
+    material: paper
+    model: farmersdelight:block/carrot_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.carrot_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:carrot_crate
+  farmersdelight:potato_crate:
+    material: paper
+    model: farmersdelight:block/potato_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.potato_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:potato_crate
+  farmersdelight:onion_crate:
+    material: paper
+    model: farmersdelight:block/onion_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.onion_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:onion_crate
+  farmersdelight:cabbage_crate:
+    material: paper
+    model: farmersdelight:block/cabbage_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.cabbage_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:cabbage_crate
+  farmersdelight:beetroot_crate:
+    material: paper
+    model: farmersdelight:block/beetroot_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.beetroot_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:beetroot_crate
+  farmersdelight:tomato_crate:
+    material: paper
+    model: farmersdelight:block/tomato_crate
+    data:
+      item_name: <!i><lang:block.farmersdelight.tomato_crate>
+    behavior:
+      type: block_item
+      block: farmersdelight:tomato_crate
+  farmersdelight:rice_bag:
+    material: paper
+    model: farmersdelight:block/rice_bag
+    data:
+      item_name: <!i><lang:block.farmersdelight.rice_bag>
+    behavior:
+      type: block_item
+      block: farmersdelight:rice_bag
+  farmersdelight:rice_bale:
+    material: paper
+    model: farmersdelight:block/rice_bale
+    data:
+      item_name: <!i><lang:block.farmersdelight.rice_bale>
+    behavior:
+      type: block_item
+      block: farmersdelight:rice_bale
+  farmersdelight:straw_bale:
+    material: paper
+    model: farmersdelight:block/straw_bale
+    data:
+      item_name: <!i><lang:block.farmersdelight.straw_bale>
+    behavior:
+      type: block_item
+      block: farmersdelight:straw_bale
+  farmersdelight:safety_net:
+    material: paper
+    model: farmersdelight:block/safety_net
+    data:
+      item_name: <!i><lang:block.farmersdelight.safety_net>
+    behavior:
+      type: block_item
+      block: farmersdelight:safety_net
+  farmersdelight:canvas_rug:
+    material: paper
+    model: farmersdelight:block/canvas_rug
+    data:
+      item_name: <!i><lang:block.farmersdelight.canvas_rug>
+    behavior:
+      type: block_item
+      block: farmersdelight:canvas_rug
+  farmersdelight:tatami:
+    material: paper
+    model: farmersdelight:block/tatami
+    data:
+      item_name: <!i><lang:block.farmersdelight.tatami>
+    behavior:
+      type: block_item
+      block: farmersdelight:tatami
+  farmersdelight:full_tatami_mat:
+    material: paper
+    model: farmersdelight:block/full_tatami_mat
+    data:
+      item_name: <!i><lang:block.farmersdelight.full_tatami_mat>
+    behavior:
+      type: block_item
+      block: farmersdelight:full_tatami_mat
+  farmersdelight:half_tatami_mat:
+    material: paper
+    model: farmersdelight:block/half_tatami_mat
+    data:
+      item_name: <!i><lang:block.farmersdelight.half_tatami_mat>
+    behavior:
+      type: block_item
+      block: farmersdelight:half_tatami_mat
+  farmersdelight:canvas_sign:
+    material: paper
+    model: farmersdelight:block/canvas_sign
+    data:
+      item_name: <!i><lang:block.farmersdelight.canvas_sign>
+    behavior:
+      type: block_item
+      block: farmersdelight:canvas_sign
+  farmersdelight:hanging_canvas_sign:
+    material: paper
+    model: farmersdelight:block/hanging_canvas_sign
+    data:
+      item_name: <!i><lang:block.farmersdelight.hanging_canvas_sign>
+    behavior:
+      type: block_item
+      block: farmersdelight:hanging_canvas_sign
+  farmersdelight:rope:
+    material: paper
+    model: farmersdelight:block/rope
+    data:
+      item_name: <!i><lang:block.farmersdelight.rope>
+    behavior:
+      type: block_item
+      block: farmersdelight:rope
+  farmersdelight:rich_soil:
+    material: paper
+    model: farmersdelight:block/rich_soil
+    data:
+      item_name: <!i><lang:block.farmersdelight.rich_soil>
+    behavior:
+      type: block_item
+      block: farmersdelight:rich_soil
+  farmersdelight:rich_soil_farmland:
+    material: paper
+    model: farmersdelight:block/rich_soil_farmland
+    data:
+      item_name: <!i><lang:block.farmersdelight.rich_soil_farmland>
+    behavior:
+      type: block_item
+      block: farmersdelight:rich_soil_farmland
+  farmersdelight:organic_compost:
+    material: paper
+    model: farmersdelight:block/organic_compost
+    data:
+      item_name: <!i><lang:block.farmersdelight.organic_compost>
+    behavior:
+      type: block_item
+      block: farmersdelight:organic_compost
+  farmersdelight:rope_fence:
+    material: paper
+    model: farmersdelight:block/rope_fence_inventory
+    data:
+      item_name: <!i><lang:block.farmersdelight.rope_fence>
+    behavior:
+      type: block_item
+      block: farmersdelight:rope_fence
+  farmersdelight:rope_fence_gate:
+    material: paper
+    model: farmersdelight:block/rope_fence_gate
+    data:
+      item_name: <!i><lang:block.farmersdelight.rope_fence_gate>
+    behavior:
+      type: block_item
+      block: farmersdelight:rope_fence_gate
+  farmersdelight:acacia_cabinet:
+    material: paper
+    model: farmersdelight:block/acacia_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.acacia_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:acacia_cabinet
+  farmersdelight:oak_cabinet:
+    material: paper
+    model: farmersdelight:block/oak_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.oak_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:oak_cabinet
+  farmersdelight:spruce_cabinet:
+    material: paper
+    model: farmersdelight:block/spruce_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.spruce_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:spruce_cabinet
+  farmersdelight:birch_cabinet:
+    material: paper
+    model: farmersdelight:block/birch_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.birch_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:birch_cabinet
+  farmersdelight:jungle_cabinet:
+    material: paper
+    model: farmersdelight:block/jungle_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.jungle_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:jungle_cabinet
+  farmersdelight:dark_oak_cabinet:
+    material: paper
+    model: farmersdelight:block/dark_oak_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.dark_oak_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:dark_oak_cabinet
+  farmersdelight:mangrove_cabinet:
+    material: paper
+    model: farmersdelight:block/mangrove_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.mangrove_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:mangrove_cabinet
+  farmersdelight:cherry_cabinet:
+    material: paper
+    model: farmersdelight:block/cherry_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.cherry_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:cherry_cabinet
+  farmersdelight:bamboo_cabinet:
+    material: paper
+    model: farmersdelight:block/bamboo_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.bamboo_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:bamboo_cabinet
+  farmersdelight:warped_cabinet:
+    material: paper
+    model: farmersdelight:block/warped_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.warped_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:warped_cabinet
+  farmersdelight:crimson_cabinet:
+    material: paper
+    model: farmersdelight:block/crimson_cabinet
+    data:
+      item_name: <!i><lang:block.farmersdelight.crimson_cabinet>
+    behavior:
+      type: block_item
+      block: farmersdelight:crimson_cabinet
+  farmersdelight:wooden_basket:
+    material: paper
+    model: farmersdelight:block/wooden_basket
+    data:
+      item_name: <!i><lang:block.farmersdelight.wooden_basket>
+    behavior:
+      type: block_item
+      block: farmersdelight:wooden_basket
+  farmersdelight:bamboo_basket:
+    material: paper
+    model: farmersdelight:block/bamboo_basket
+    data:
+      item_name: <!i><lang:block.farmersdelight.bamboo_basket>
+    behavior:
+      type: block_item
+      block: farmersdelight:bamboo_basket
+  farmersdelight:apple_pie:
+    material: paper
+    model: farmersdelight:block/apple_pie
+    data:
+      item_name: <!i><lang:block.farmersdelight.apple_pie>
+    behavior:
+      type: block_item
+      block: farmersdelight:apple_pie
+  farmersdelight:chocolate_pie:
+    material: paper
+    model: farmersdelight:block/chocolate_pie
+    data:
+      item_name: <!i><lang:block.farmersdelight.chocolate_pie>
+    behavior:
+      type: block_item
+      block: farmersdelight:chocolate_pie
+  farmersdelight:sweet_berry_cheesecake:
+    material: paper
+    model: farmersdelight:block/sweet_berry_cheesecake
+    data:
+      item_name: <!i><lang:block.farmersdelight.sweet_berry_cheesecake>
+    behavior:
+      type: block_item
+      block: farmersdelight:sweet_berry_cheesecake
+  farmersdelight:roast_chicken_block:
+    material: paper
+    model: farmersdelight:block/roast_chicken_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.roast_chicken_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:roast_chicken_block
+  farmersdelight:honey_glazed_ham_block:
+    material: paper
+    model: farmersdelight:block/honey_glazed_ham_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.honey_glazed_ham_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:honey_glazed_ham_block
+  farmersdelight:shepherds_pie_block:
+    material: paper
+    model: farmersdelight:block/shepherds_pie_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.shepherds_pie_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:shepherds_pie_block
+  farmersdelight:rice_roll_medley_block:
+    material: paper
+    model: farmersdelight:block/rice_roll_medley_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.rice_roll_medley_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:rice_roll_medley_block
+  farmersdelight:gleaming_salad_block:
+    material: paper
+    model: farmersdelight:block/gleaming_salad_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.gleaming_salad_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:gleaming_salad_block
+  farmersdelight:stuffed_pumpkin_block:
+    material: paper
+    model: farmersdelight:block/stuffed_pumpkin_block
+    data:
+      item_name: <!i><lang:block.farmersdelight.stuffed_pumpkin_block>
+    behavior:
+      type: block_item
+      block: farmersdelight:stuffed_pumpkin_block
+blocks:
+  farmersdelight:wild_cabbages:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:cabbage_seeds
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_cabbages
+  farmersdelight:wild_beetroots:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:beetroot_seeds
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_beetroots
+  farmersdelight:wild_carrots:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:carrot
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_carrots
+  farmersdelight:wild_onions:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:onion
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_onions
+  farmersdelight:wild_potatoes:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:potato
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_potatoes
+  farmersdelight:wild_tomatoes:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:tomato_seeds
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_tomatoes
+  farmersdelight:wild_rice:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:rice
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/wild_rice_bottom
+  farmersdelight:sandy_shrub:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:dead_bush
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/sandy_shrub
+  farmersdelight:brown_mushroom_colony:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:brown_mushroom
+        count: 1
+    state:
+      auto_state: mushroom
+      model:
+        path: farmersdelight:block/brown_mushroom_colony_stage3
+  farmersdelight:red_mushroom_colony:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: minecraft:red_mushroom
+        count: 1
+    state:
+      auto_state: mushroom
+      model:
+        path: farmersdelight:block/red_mushroom_colony_stage3
+  farmersdelight:budding_tomatoes:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:tomato
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/budding_tomatoes_stage3
+  farmersdelight:rice_panicles:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:rice
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/rice_panicles_stage3
+  farmersdelight:tomatoes_on_rope:
+    settings:
+      template:
+      - default:hardness/none
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    behaviors:
+    - type: liquid_flowable_block
+    - type: bush_block
+      bottom_block_tags:
+      - minecraft:dirt
+      - minecraft:sand
+      - minecraft:supports_vegetation
+    loot:
+      template: default:loot_table/basic
+      arguments:
+        item: farmersdelight:tomato
+        count: 1
+    state:
+      auto_state: tripwire
+      model:
+        path: farmersdelight:block/tomatoes_on_rope_stage3
+  farmersdelight:carrot_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:carrot_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/carrot_crate
+  farmersdelight:potato_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:potato_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/potato_crate
+  farmersdelight:onion_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:onion_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/onion_crate
+  farmersdelight:cabbage_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:cabbage_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/cabbage_crate
+  farmersdelight:beetroot_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:beetroot_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/beetroot_crate
+  farmersdelight:tomato_crate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:tomato_crate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/tomato_crate
+  farmersdelight:rice_bag:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rice_bag
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/rice_bag
+  farmersdelight:rice_bale:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rice_bale
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/rice_bale
+  farmersdelight:straw_bale:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:straw_bale
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/straw_bale
+  farmersdelight:safety_net:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:safety_net
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/safety_net
+  farmersdelight:canvas_rug:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:canvas_rug
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/canvas_rug
+  farmersdelight:tatami:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:tatami
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/tatami
+  farmersdelight:full_tatami_mat:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:full_tatami_mat
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/full_tatami_mat
+  farmersdelight:half_tatami_mat:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:half_tatami_mat
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/half_tatami_mat
+  farmersdelight:canvas_sign:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:canvas_sign
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/canvas_sign
+  farmersdelight:hanging_canvas_sign:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:hanging_canvas_sign
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/hanging_canvas_sign
+  farmersdelight:rope:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rope
+    state:
+      auto_state: twisting_vines
+      model:
+        path: farmersdelight:block/rope
+  farmersdelight:rich_soil:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rich_soil
+    state:
+      auto_state: solid
+      model:
+        path: farmersdelight:block/rich_soil
+  farmersdelight:rich_soil_farmland:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rich_soil_farmland
+    state:
+      auto_state: solid
+      model:
+        path: farmersdelight:block/rich_soil_farmland
+  farmersdelight:organic_compost:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/grass
+      overrides:
+        push_reaction: destroy
+      randomly-ticking: true
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:organic_compost
+    behavior:
+      type: change_over_time_block
+      next-block: farmersdelight:rich_soil
+      change-speed: 0.1
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/organic_compost
+  farmersdelight:rope_fence:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rope_fence
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/rope_fence_post
+  farmersdelight:rope_fence_gate:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rope_fence_gate
+    state:
+      auto_state: note_block
+      model:
+        path: farmersdelight:block/rope_fence_gate
+  farmersdelight:acacia_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/acacia_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:acacia_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.acacia_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:oak_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/oak_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:oak_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.oak_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:spruce_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/spruce_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:spruce_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.spruce_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:birch_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/birch_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:birch_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.birch_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:jungle_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/jungle_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:jungle_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.jungle_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:dark_oak_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/dark_oak_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:dark_oak_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.dark_oak_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:mangrove_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/mangrove_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:mangrove_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.mangrove_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:cherry_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/cherry_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:cherry_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.cherry_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:bamboo_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:bamboo_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.bamboo_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:warped_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/warped_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:warped_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.warped_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:crimson_cabinet:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        open:
+          type: boolean
+          default: false
+      appearances:
+        north_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet
+        north_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet_open
+        east_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet
+            y: 90
+        east_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet_open
+            y: 90
+        south_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet
+            y: 180
+        south_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet_open
+            y: 180
+        west_openfalse:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet
+            y: 270
+        west_opentrue:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/crimson_cabinet_open
+            y: 270
+      variants:
+        facing=north,open=false:
+          appearance: north_openfalse
+        facing=north,open=true:
+          appearance: north_opentrue
+        facing=east,open=false:
+          appearance: east_openfalse
+        facing=east,open=true:
+          appearance: east_opentrue
+        facing=south,open=false:
+          appearance: south_openfalse
+        facing=south,open=true:
+          appearance: south_opentrue
+        facing=west,open=false:
+          appearance: west_openfalse
+        facing=west,open=true:
+          appearance: west_opentrue
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:crimson_cabinet
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.crimson_cabinet>
+      rows: 3
+      sounds:
+        open: minecraft:block.barrel.open
+        close: minecraft:block.barrel.close
+      allow_input: true
+      allow_output: true
+  farmersdelight:wooden_basket:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+      appearances:
+        north:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/wooden_basket
+        east:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/wooden_basket
+            y: 90
+        south:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/wooden_basket
+            y: 180
+        west:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/wooden_basket
+            y: 270
+      variants:
+        facing=north:
+          appearance: north
+        facing=east:
+          appearance: east
+        facing=south:
+          appearance: south
+        facing=west:
+          appearance: west
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:wooden_basket
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.wooden_basket>
+      rows: 1
+      sounds:
+        open: minecraft:block.wood.place
+        close: minecraft:block.wood.place
+      allow_input: true
+      allow_output: true
+  farmersdelight:bamboo_basket:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+      appearances:
+        north:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_basket
+        east:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_basket
+            y: 90
+        south:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_basket
+            y: 180
+        west:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/bamboo_basket
+            y: 270
+      variants:
+        facing=north:
+          appearance: north
+        facing=east:
+          appearance: east
+        facing=south:
+          appearance: south
+        facing=west:
+          appearance: west
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:bamboo_basket
+    behavior:
+      type: simple_storage_block
+      title: <lang:block.farmersdelight.bamboo_basket>
+      rows: 1
+      sounds:
+        open: minecraft:block.wood.place
+        close: minecraft:block.wood.place
+      allow_input: true
+      allow_output: true
+  farmersdelight:apple_pie:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        bites:
+          type: int
+          default: 0
+          min: 0
+          max: 3
+      appearances:
+        north_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie
+        north_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice1
+        north_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice2
+        north_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice3
+        east_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie
+            y: 90
+        east_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice1
+            y: 90
+        east_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice2
+            y: 90
+        east_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice3
+            y: 90
+        south_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie
+            y: 180
+        south_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice1
+            y: 180
+        south_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice2
+            y: 180
+        south_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice3
+            y: 180
+        west_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie
+            y: 270
+        west_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice1
+            y: 270
+        west_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice2
+            y: 270
+        west_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/apple_pie_slice3
+            y: 270
+      variants:
+        facing=north,bites=0:
+          appearance: north_bites0
+        facing=north,bites=1:
+          appearance: north_bites1
+        facing=north,bites=2:
+          appearance: north_bites2
+        facing=north,bites=3:
+          appearance: north_bites3
+        facing=east,bites=0:
+          appearance: east_bites0
+        facing=east,bites=1:
+          appearance: east_bites1
+        facing=east,bites=2:
+          appearance: east_bites2
+        facing=east,bites=3:
+          appearance: east_bites3
+        facing=south,bites=0:
+          appearance: south_bites0
+        facing=south,bites=1:
+          appearance: south_bites1
+        facing=south,bites=2:
+          appearance: south_bites2
+        facing=south,bites=3:
+          appearance: south_bites3
+        facing=west,bites=0:
+          appearance: west_bites0
+        facing=west,bites=1:
+          appearance: west_bites1
+        facing=west,bites=2:
+          appearance: west_bites2
+        facing=west,bites=3:
+          appearance: west_bites3
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:apple_pie
+  farmersdelight:chocolate_pie:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        bites:
+          type: int
+          default: 0
+          min: 0
+          max: 3
+      appearances:
+        north_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie
+        north_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice1
+        north_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice2
+        north_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice3
+        east_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie
+            y: 90
+        east_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice1
+            y: 90
+        east_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice2
+            y: 90
+        east_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice3
+            y: 90
+        south_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie
+            y: 180
+        south_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice1
+            y: 180
+        south_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice2
+            y: 180
+        south_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice3
+            y: 180
+        west_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie
+            y: 270
+        west_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice1
+            y: 270
+        west_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice2
+            y: 270
+        west_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/chocolate_pie_slice3
+            y: 270
+      variants:
+        facing=north,bites=0:
+          appearance: north_bites0
+        facing=north,bites=1:
+          appearance: north_bites1
+        facing=north,bites=2:
+          appearance: north_bites2
+        facing=north,bites=3:
+          appearance: north_bites3
+        facing=east,bites=0:
+          appearance: east_bites0
+        facing=east,bites=1:
+          appearance: east_bites1
+        facing=east,bites=2:
+          appearance: east_bites2
+        facing=east,bites=3:
+          appearance: east_bites3
+        facing=south,bites=0:
+          appearance: south_bites0
+        facing=south,bites=1:
+          appearance: south_bites1
+        facing=south,bites=2:
+          appearance: south_bites2
+        facing=south,bites=3:
+          appearance: south_bites3
+        facing=west,bites=0:
+          appearance: west_bites0
+        facing=west,bites=1:
+          appearance: west_bites1
+        facing=west,bites=2:
+          appearance: west_bites2
+        facing=west,bites=3:
+          appearance: west_bites3
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:chocolate_pie
+  farmersdelight:sweet_berry_cheesecake:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        bites:
+          type: int
+          default: 0
+          min: 0
+          max: 3
+      appearances:
+        north_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake
+        north_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice1
+        north_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice2
+        north_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice3
+        east_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake
+            y: 90
+        east_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice1
+            y: 90
+        east_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice2
+            y: 90
+        east_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice3
+            y: 90
+        south_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake
+            y: 180
+        south_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice1
+            y: 180
+        south_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice2
+            y: 180
+        south_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice3
+            y: 180
+        west_bites0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake
+            y: 270
+        west_bites1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice1
+            y: 270
+        west_bites2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice2
+            y: 270
+        west_bites3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/sweet_berry_cheesecake_slice3
+            y: 270
+      variants:
+        facing=north,bites=0:
+          appearance: north_bites0
+        facing=north,bites=1:
+          appearance: north_bites1
+        facing=north,bites=2:
+          appearance: north_bites2
+        facing=north,bites=3:
+          appearance: north_bites3
+        facing=east,bites=0:
+          appearance: east_bites0
+        facing=east,bites=1:
+          appearance: east_bites1
+        facing=east,bites=2:
+          appearance: east_bites2
+        facing=east,bites=3:
+          appearance: east_bites3
+        facing=south,bites=0:
+          appearance: south_bites0
+        facing=south,bites=1:
+          appearance: south_bites1
+        facing=south,bites=2:
+          appearance: south_bites2
+        facing=south,bites=3:
+          appearance: south_bites3
+        facing=west,bites=0:
+          appearance: west_bites0
+        facing=west,bites=1:
+          appearance: west_bites1
+        facing=west,bites=2:
+          appearance: west_bites2
+        facing=west,bites=3:
+          appearance: west_bites3
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:sweet_berry_cheesecake
+  farmersdelight:roast_chicken_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 4
+          min: 0
+          max: 4
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_leftovers
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage3
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage2
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage1
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_leftovers
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage3
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage2
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage1
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_leftovers
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage3
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage2
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage1
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_leftovers
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage3
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage2
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage1
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/roast_chicken_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:roast_chicken_block
+  farmersdelight:honey_glazed_ham_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 4
+          min: 0
+          max: 4
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_leftovers
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage3
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage2
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage1
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_leftovers
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage3
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage2
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage1
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_leftovers
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage3
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage2
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage1
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_leftovers
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage3
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage2
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage1
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/honey_glazed_ham_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:honey_glazed_ham_block
+  farmersdelight:shepherds_pie_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 4
+          min: 0
+          max: 4
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_leftovers
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage3
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage2
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage1
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_leftovers
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage3
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage2
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage1
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_leftovers
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage3
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage2
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage1
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_leftovers
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage3
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage2
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage1
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/shepherds_pie_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:shepherds_pie_block
+  farmersdelight:rice_roll_medley_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 8
+          min: 0
+          max: 8
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_leftovers
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage7
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage6
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage5
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage4
+        north_servings5:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage3
+        north_servings6:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage2
+        north_servings7:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage1
+        north_servings8:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_leftovers
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage7
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage6
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage5
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage4
+            y: 90
+        east_servings5:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage3
+            y: 90
+        east_servings6:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage2
+            y: 90
+        east_servings7:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage1
+            y: 90
+        east_servings8:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_leftovers
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage7
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage6
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage5
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage4
+            y: 180
+        south_servings5:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage3
+            y: 180
+        south_servings6:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage2
+            y: 180
+        south_servings7:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage1
+            y: 180
+        south_servings8:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_leftovers
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage7
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage6
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage5
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage4
+            y: 270
+        west_servings5:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage3
+            y: 270
+        west_servings6:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage2
+            y: 270
+        west_servings7:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage1
+            y: 270
+        west_servings8:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/rice_roll_medley_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=north,servings=5:
+          appearance: north_servings5
+        facing=north,servings=6:
+          appearance: north_servings6
+        facing=north,servings=7:
+          appearance: north_servings7
+        facing=north,servings=8:
+          appearance: north_servings8
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=east,servings=5:
+          appearance: east_servings5
+        facing=east,servings=6:
+          appearance: east_servings6
+        facing=east,servings=7:
+          appearance: east_servings7
+        facing=east,servings=8:
+          appearance: east_servings8
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=south,servings=5:
+          appearance: south_servings5
+        facing=south,servings=6:
+          appearance: south_servings6
+        facing=south,servings=7:
+          appearance: south_servings7
+        facing=south,servings=8:
+          appearance: south_servings8
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+        facing=west,servings=5:
+          appearance: west_servings5
+        facing=west,servings=6:
+          appearance: west_servings6
+        facing=west,servings=7:
+          appearance: west_servings7
+        facing=west,servings=8:
+          appearance: west_servings8
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:rice_roll_medley_block
+  farmersdelight:gleaming_salad_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 4
+          min: 0
+          max: 4
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_leftovers
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage3
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage2
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage1
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_leftovers
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage3
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage2
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage1
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_leftovers
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage3
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage2
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage1
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_leftovers
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage3
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage2
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage1
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/gleaming_salad_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:gleaming_salad_block
+  farmersdelight:stuffed_pumpkin_block:
+    settings:
+      template:
+      - default:hardness/wood
+      - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        servings:
+          type: int
+          default: 4
+          min: 0
+          max: 4
+      appearances:
+        north_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+        north_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+        north_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage2
+        north_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage1
+        north_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage0
+        east_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 90
+        east_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 90
+        east_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage2
+            y: 90
+        east_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage1
+            y: 90
+        east_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage0
+            y: 90
+        south_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 180
+        south_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 180
+        south_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage2
+            y: 180
+        south_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage1
+            y: 180
+        south_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage0
+            y: 180
+        west_servings0:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 270
+        west_servings1:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage3
+            y: 270
+        west_servings2:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage2
+            y: 270
+        west_servings3:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage1
+            y: 270
+        west_servings4:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stuffed_pumpkin_block_stage0
+            y: 270
+      variants:
+        facing=north,servings=0:
+          appearance: north_servings0
+        facing=north,servings=1:
+          appearance: north_servings1
+        facing=north,servings=2:
+          appearance: north_servings2
+        facing=north,servings=3:
+          appearance: north_servings3
+        facing=north,servings=4:
+          appearance: north_servings4
+        facing=east,servings=0:
+          appearance: east_servings0
+        facing=east,servings=1:
+          appearance: east_servings1
+        facing=east,servings=2:
+          appearance: east_servings2
+        facing=east,servings=3:
+          appearance: east_servings3
+        facing=east,servings=4:
+          appearance: east_servings4
+        facing=south,servings=0:
+          appearance: south_servings0
+        facing=south,servings=1:
+          appearance: south_servings1
+        facing=south,servings=2:
+          appearance: south_servings2
+        facing=south,servings=3:
+          appearance: south_servings3
+        facing=south,servings=4:
+          appearance: south_servings4
+        facing=west,servings=0:
+          appearance: west_servings0
+        facing=west,servings=1:
+          appearance: west_servings1
+        facing=west,servings=2:
+          appearance: west_servings2
+        facing=west,servings=3:
+          appearance: west_servings3
+        facing=west,servings=4:
+          appearance: west_servings4
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:stuffed_pumpkin_block

@@ -1,0 +1,205 @@
+# Bloques funcionales de FD. La MECÁNICA (cocinar/cortar) la maneja el plugin
+# companion FarmersDelightMechanics vía CustomBlockInteractEvent. Aquí solo se
+# definen el bloque y su modelo para que existan y se puedan colocar.
+items:
+  farmersdelight:cooking_pot:
+    material: paper
+    model: farmersdelight:block/cooking_pot
+    data:
+      item_name: <!i><lang:block.farmersdelight.cooking_pot>
+    behavior:
+      type: block_item
+      block: farmersdelight:cooking_pot
+
+  farmersdelight:cutting_board:
+    material: paper
+    model: farmersdelight:block/cutting_board
+    data:
+      item_name: <!i><lang:block.farmersdelight.cutting_board>
+    behavior:
+      type: block_item
+      block: farmersdelight:cutting_board
+
+  farmersdelight:stove:
+    material: paper
+    model: farmersdelight:block/stove
+    data:
+      item_name: <!i><lang:block.farmersdelight.stove>
+    behavior:
+      type: block_item
+      block: farmersdelight:stove
+
+  farmersdelight:skillet:
+    material: paper
+    model: farmersdelight:block/skillet
+    data:
+      item_name: <!i><lang:block.farmersdelight.skillet>
+    behavior:
+      type: block_item
+      block: farmersdelight:skillet
+
+blocks:
+  farmersdelight:cooking_pot:
+    settings:
+      template:
+        - default:hardness/stone
+        - default:sound/metal
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:cooking_pot
+    # cactus = estado vanilla SÓLIDO pero NO-opaco: no ocluye la cara del bloque
+    # de abajo (la olla mide 10/16 de alto, no es cubo completo).
+    state:
+      auto_state: cactus
+      model:
+        path: farmersdelight:block/cooking_pot
+
+  farmersdelight:cutting_board:
+    settings:
+      template:
+        - default:hardness/wood
+        - default:sound/wood
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:cutting_board
+    # tripwire = estado vanilla PLANO: hitbox bajo, sin colisión de cubo, sin
+    # culling de la cara de abajo. Evita el cubo sólido / cuchillo flotando.
+    state:
+      auto_state: lower_tripwire
+      model:
+        path: farmersdelight:block/cutting_board
+
+  farmersdelight:stove:
+    settings:
+      template:
+        - default:hardness/stone
+        - default:sound/stone
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:stove
+    # Estufa direccional, SIEMPRE encendida (lit=true por defecto): da calor a la
+    # olla/sarten de encima al colocarla, sin necesidad de prenderla. El modelo
+    # animado stove_on se muestra siempre. El plugin lee 'lit' para el calor.
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+        lit:
+          type: boolean
+          default: true
+      appearances:
+        north_off:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove
+        east_off:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove
+            y: 90
+        south_off:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove
+            y: 180
+        west_off:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove
+            y: 270
+        north_on:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove_on
+        east_on:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove_on
+            y: 90
+        south_on:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove_on
+            y: 180
+        west_on:
+          auto_state: note_block
+          model:
+            path: farmersdelight:block/stove_on
+            y: 270
+      variants:
+        facing=north,lit=false:
+          appearance: north_off
+        facing=east,lit=false:
+          appearance: east_off
+        facing=south,lit=false:
+          appearance: south_off
+        facing=west,lit=false:
+          appearance: west_off
+        facing=north,lit=true:
+          appearance: north_on
+        facing=east,lit=true:
+          appearance: east_on
+        facing=south,lit=true:
+          appearance: south_on
+        facing=west,lit=true:
+          appearance: west_on
+
+  farmersdelight:skillet:
+    settings:
+      template:
+        - default:hardness/stone
+        - default:sound/metal
+      overrides:
+        push_reaction: destroy
+    loot:
+      template: default:loot_table/self
+      arguments:
+        item: farmersdelight:skillet
+    # sartén plana (4/16, sin culling) Y direccional: el mango se orienta segun
+    # el jugador. tripwire = estado vanilla plano; facing rota el modelo en Y.
+    states:
+      properties:
+        facing:
+          type: 4-direction
+          default: north
+      # +90 en cada variante para que el mango quede a la IZQUIERDA del jugador.
+      appearances:
+        north:
+          auto_state: lower_tripwire
+          model:
+            path: farmersdelight:block/skillet
+            y: 90
+        east:
+          auto_state: lower_tripwire
+          model:
+            path: farmersdelight:block/skillet
+            y: 180
+        south:
+          auto_state: lower_tripwire
+          model:
+            path: farmersdelight:block/skillet
+            y: 270
+        west:
+          auto_state: lower_tripwire
+          model:
+            path: farmersdelight:block/skillet
+            y: 0
+      variants:
+        facing=north:
+          appearance: north
+        facing=east:
+          appearance: east
+        facing=south:
+          appearance: south
+        facing=west:
+          appearance: west

@@ -1,0 +1,1353 @@
+recipes:
+  farmersdelight:nether_salad:
+    type: shapeless
+    ingredients:
+    - minecraft:crimson_fungus
+    - minecraft:warped_fungus
+    - minecraft:bowl
+    result:
+      id: farmersdelight:nether_salad
+      count: 1
+  farmersdelight:half_tatami_mat:
+    type: shapeless
+    ingredients:
+    - farmersdelight:full_tatami_mat
+    result:
+      id: farmersdelight:half_tatami_mat
+      count: 2
+  farmersdelight:rice_bale:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:rice_panicle
+    result:
+      id: farmersdelight:rice_bale
+      count: 1
+  farmersdelight:melon_popsicle:
+    type: shaped
+    pattern:
+    - ' mm'
+    - imm
+    - '-i '
+    ingredients:
+      '-': minecraft:stick
+      i: minecraft:ice
+      m: minecraft:melon_slice
+    result:
+      id: farmersdelight:melon_popsicle
+      count: 1
+  farmersdelight:cooked_salmon_slice_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:salmon_slice
+    result:
+      id: farmersdelight:cooked_salmon_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:book_from_canvas:
+    type: shapeless
+    ingredients:
+    - minecraft:paper
+    - minecraft:paper
+    - minecraft:paper
+    - farmersdelight:canvas
+    result:
+      id: minecraft:book
+      count: 1
+  farmersdelight:milk_bottle:
+    type: shapeless
+    ingredients:
+    - minecraft:milk_bucket
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    - minecraft:glass_bottle
+    result:
+      id: farmersdelight:milk_bottle
+      count: 4
+  farmersdelight:cake_from_slices:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    - farmersdelight:cake_slice
+    result:
+      id: minecraft:cake
+      count: 1
+  farmersdelight:tomato_seeds:
+    type: shapeless
+    ingredients:
+    - farmersdelight:tomato
+    result:
+      id: farmersdelight:tomato_seeds
+      count: 1
+  farmersdelight:painting_from_canvas:
+    type: shaped
+    pattern:
+    - sss
+    - scs
+    - sss
+    ingredients:
+      c: farmersdelight:canvas
+      s: minecraft:stick
+    result:
+      id: minecraft:painting
+      count: 1
+  farmersdelight:organic_compost_from_rotten_flesh:
+    type: shapeless
+    ingredients:
+    - minecraft:dirt
+    - minecraft:rotten_flesh
+    - minecraft:rotten_flesh
+    - farmersdelight:straw
+    - farmersdelight:straw
+    - minecraft:bone_meal
+    - minecraft:bone_meal
+    - minecraft:bone_meal
+    - minecraft:bone_meal
+    result:
+      id: farmersdelight:organic_compost
+      count: 1
+  farmersdelight:mangrove_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:mangrove_trapdoor
+      _: minecraft:mangrove_slab
+    result:
+      id: farmersdelight:mangrove_cabinet
+      count: 1
+  farmersdelight:sweet_berry_cheesecake:
+    type: shaped
+    pattern:
+    - sss
+    - sss
+    - mOm
+    ingredients:
+      O: farmersdelight:pie_crust
+      m: minecraft:milk_bucket
+      s: minecraft:sweet_berries
+    result:
+      id: farmersdelight:sweet_berry_cheesecake
+      count: 1
+  farmersdelight:melon_juice:
+    type: shapeless
+    ingredients:
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:sugar
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:glass_bottle
+    result:
+      id: farmersdelight:melon_juice
+      count: 1
+  farmersdelight:gold_nugget_from_blasting_knife:
+    type: blasting
+    ingredient: farmersdelight:golden_knife
+    result:
+      id: minecraft:gold_nugget
+      count: 1
+    experience: 0.1
+    cookingtime: 100
+  farmersdelight:chicken_sandwich:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - minecraft:cooked_chicken
+    - farmersdelight:cabbage
+    - minecraft:carrot
+    result:
+      id: farmersdelight:chicken_sandwich
+      count: 1
+  farmersdelight:rope_from_safety_net:
+    type: shapeless
+    ingredients:
+    - farmersdelight:safety_net
+    result:
+      id: farmersdelight:rope
+      count: 4
+  farmersdelight:canvas_sign:
+    type: shaped
+    pattern:
+    - w#w
+    - w#w
+    - ' / '
+    ingredients:
+      '#': farmersdelight:canvas
+      /: minecraft:stick
+      w: '#minecraft:planks'
+    result:
+      id: farmersdelight:canvas_sign
+      count: 3
+  farmersdelight:potato_from_crate:
+    type: shapeless
+    ingredients:
+    - farmersdelight:potato_crate
+    result:
+      id: minecraft:potato
+      count: 9
+  farmersdelight:onion_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:onion
+    result:
+      id: farmersdelight:onion_crate
+      count: 1
+  farmersdelight:rope_fence_gate:
+    type: shaped
+    pattern:
+    - /r/
+    - /r/
+    ingredients:
+      /: minecraft:stick
+      r: farmersdelight:rope
+    result:
+      id: farmersdelight:rope_fence_gate
+      count: 1
+  farmersdelight:barbecue_stick:
+    type: shapeless
+    ingredients:
+    - farmersdelight:tomato
+    - farmersdelight:onion
+    - minecraft:cooked_beef
+    - minecraft:stick
+    result:
+      id: farmersdelight:barbecue_stick
+      count: 1
+  farmersdelight:lead_from_straw:
+    type: shaped
+    pattern:
+    - 'ss '
+    - 'ss '
+    - '  s'
+    ingredients:
+      s: farmersdelight:straw
+    result:
+      id: minecraft:lead
+      count: 1
+  farmersdelight:oak_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:oak_trapdoor
+      _: minecraft:oak_slab
+    result:
+      id: farmersdelight:oak_cabinet
+      count: 1
+  farmersdelight:egg_sandwich:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - farmersdelight:fried_egg
+    - farmersdelight:fried_egg
+    result:
+      id: farmersdelight:egg_sandwich
+      count: 1
+  farmersdelight:beetroot_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': minecraft:beetroot
+    result:
+      id: farmersdelight:beetroot_crate
+      count: 1
+  farmersdelight:cooked_bacon_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:bacon
+    result:
+      id: farmersdelight:cooked_bacon
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:cabbage:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cabbage_crate
+    result:
+      id: farmersdelight:cabbage
+      count: 9
+  farmersdelight:cooked_cod_slice_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:cod_slice
+    result:
+      id: farmersdelight:cooked_cod_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:full_tatami_mat:
+    type: shapeless
+    ingredients:
+    - farmersdelight:tatami
+    result:
+      id: farmersdelight:full_tatami_mat
+      count: 2
+  farmersdelight:cooked_mutton_chops_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:mutton_chops
+    result:
+      id: farmersdelight:cooked_mutton_chops
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:tatami:
+    type: shaped
+    pattern:
+    - cs
+    - sc
+    ingredients:
+      c: farmersdelight:canvas
+      s: farmersdelight:straw
+    result:
+      id: farmersdelight:tatami
+      count: 2
+  farmersdelight:cooked_chicken_cuts_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:chicken_cuts
+    result:
+      id: farmersdelight:cooked_chicken_cuts
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:cooked_chicken_cuts:
+    type: smelting
+    ingredient: farmersdelight:chicken_cuts
+    result:
+      id: farmersdelight:cooked_chicken_cuts
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:tatami_block_from_full:
+    type: shapeless
+    ingredients:
+    - farmersdelight:full_tatami_mat
+    - farmersdelight:full_tatami_mat
+    result:
+      id: farmersdelight:tatami
+      count: 1
+  farmersdelight:sweet_berry_cookie:
+    type: shapeless
+    ingredients:
+    - minecraft:sweet_berries
+    - minecraft:wheat
+    - minecraft:wheat
+    result:
+      id: farmersdelight:sweet_berry_cookie
+      count: 8
+  farmersdelight:onion:
+    type: shapeless
+    ingredients:
+    - farmersdelight:onion_crate
+    result:
+      id: farmersdelight:onion
+      count: 9
+  farmersdelight:potato_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': minecraft:potato
+    result:
+      id: farmersdelight:potato_crate
+      count: 1
+  farmersdelight:roast_chicken_block:
+    type: shapeless
+    ingredients:
+    - farmersdelight:onion
+    - minecraft:egg
+    - minecraft:bread
+    - minecraft:carrot
+    - minecraft:cooked_chicken
+    - minecraft:baked_potato
+    - minecraft:carrot
+    - minecraft:bowl
+    - minecraft:baked_potato
+    result:
+      id: farmersdelight:roast_chicken_block
+      count: 1
+  farmersdelight:acacia_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:acacia_trapdoor
+      _: minecraft:acacia_slab
+    result:
+      id: farmersdelight:acacia_cabinet
+      count: 1
+  farmersdelight:paper_from_tree_bark:
+    type: shapeless
+    ingredients:
+    - farmersdelight:tree_bark
+    - farmersdelight:tree_bark
+    - farmersdelight:tree_bark
+    result:
+      id: minecraft:paper
+      count: 1
+  farmersdelight:gold_nugget_from_smelting_knife:
+    type: smelting
+    ingredient: farmersdelight:golden_knife
+    result:
+      id: minecraft:gold_nugget
+      count: 1
+    experience: 0.1
+    cookingtime: 200
+  farmersdelight:full_tatami_mat_from_halves:
+    type: shapeless
+    ingredients:
+    - farmersdelight:half_tatami_mat
+    - farmersdelight:half_tatami_mat
+    result:
+      id: farmersdelight:full_tatami_mat
+      count: 1
+  farmersdelight:skillet:
+    type: shaped
+    pattern:
+    - ' ##'
+    - ' ##'
+    - '/  '
+    ingredients:
+      '#': minecraft:iron_ingot
+      /: minecraft:brick
+    result:
+      id: farmersdelight:skillet
+      count: 1
+  farmersdelight:cooked_bacon:
+    type: smelting
+    ingredient: farmersdelight:bacon
+    result:
+      id: farmersdelight:cooked_bacon
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:organic_compost_from_tree_bark:
+    type: shapeless
+    ingredients:
+    - minecraft:dirt
+    - farmersdelight:straw
+    - farmersdelight:straw
+    - minecraft:bone_meal
+    - minecraft:bone_meal
+    - farmersdelight:tree_bark
+    - farmersdelight:tree_bark
+    - farmersdelight:tree_bark
+    - farmersdelight:tree_bark
+    result:
+      id: farmersdelight:organic_compost
+      count: 1
+  farmersdelight:dark_oak_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:dark_oak_trapdoor
+      _: minecraft:dark_oak_slab
+    result:
+      id: farmersdelight:dark_oak_cabinet
+      count: 1
+  farmersdelight:bacon_sandwich:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - minecraft:cooked_porkchop
+    - farmersdelight:cabbage
+    - farmersdelight:tomato
+    result:
+      id: farmersdelight:bacon_sandwich
+      count: 1
+  farmersdelight:pie_crust:
+    type: shaped
+    pattern:
+    - wMw
+    - ' w '
+    ingredients:
+      M: minecraft:milk_bucket
+      w: minecraft:wheat
+    result:
+      id: farmersdelight:pie_crust
+      count: 1
+  farmersdelight:rope:
+    type: shaped
+    pattern:
+    - s
+    - s
+    ingredients:
+      s: farmersdelight:straw
+    result:
+      id: farmersdelight:rope
+      count: 4
+  farmersdelight:cherry_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:cherry_trapdoor
+      _: minecraft:cherry_slab
+    result:
+      id: farmersdelight:cherry_cabinet
+      count: 1
+  farmersdelight:rice_from_bag:
+    type: shapeless
+    ingredients:
+    - farmersdelight:rice_bag
+    result:
+      id: farmersdelight:rice
+      count: 9
+  farmersdelight:roasted_mutton_chops:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cooked_mutton_chops
+    - minecraft:beetroot
+    - minecraft:bowl
+    - farmersdelight:cooked_rice
+    - farmersdelight:tomato
+    result:
+      id: farmersdelight:roasted_mutton_chops
+      count: 1
+  farmersdelight:beef_patty:
+    type: smelting
+    ingredient: farmersdelight:minced_beef
+    result:
+      id: farmersdelight:beef_patty
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:stuffed_potato:
+    type: shapeless
+    ingredients:
+    - minecraft:baked_potato
+    - minecraft:cooked_beef
+    - minecraft:milk_bucket
+    result:
+      id: farmersdelight:stuffed_potato
+      count: 1
+  farmersdelight:straw:
+    type: shapeless
+    ingredients:
+    - farmersdelight:straw_bale
+    result:
+      id: farmersdelight:straw
+      count: 9
+  farmersdelight:tomato:
+    type: shapeless
+    ingredients:
+    - farmersdelight:tomato_crate
+    result:
+      id: farmersdelight:tomato
+      count: 9
+  farmersdelight:smoked_ham:
+    type: smoking
+    ingredient: farmersdelight:ham
+    result:
+      id: farmersdelight:smoked_ham
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:canvas_rug:
+    type: shapeless
+    ingredients:
+    - farmersdelight:canvas
+    result:
+      id: farmersdelight:canvas_rug
+      count: 2
+  farmersdelight:safety_net:
+    type: shaped
+    pattern:
+    - rr
+    - rr
+    ingredients:
+      r: farmersdelight:rope
+    result:
+      id: farmersdelight:safety_net
+      count: 1
+  farmersdelight:shepherds_pie_block:
+    type: shapeless
+    ingredients:
+    - minecraft:baked_potato
+    - minecraft:milk_bucket
+    - minecraft:baked_potato
+    - minecraft:cooked_mutton
+    - minecraft:cooked_mutton
+    - minecraft:cooked_mutton
+    - farmersdelight:onion
+    - minecraft:bowl
+    - farmersdelight:onion
+    result:
+      id: farmersdelight:shepherds_pie_block
+      count: 1
+  farmersdelight:rice:
+    type: shapeless
+    ingredients:
+    - farmersdelight:rice_panicle
+    result:
+      id: farmersdelight:rice
+      count: 1
+  farmersdelight:warped_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:warped_trapdoor
+      _: minecraft:warped_slab
+    result:
+      id: farmersdelight:warped_cabinet
+      count: 1
+  farmersdelight:fried_egg:
+    type: smelting
+    ingredient: minecraft:egg
+    result:
+      id: farmersdelight:fried_egg
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:iron_knife:
+    type: shaped
+    pattern:
+    - m
+    - s
+    ingredients:
+      m: minecraft:iron_ingot
+      s: minecraft:stick
+    result:
+      id: farmersdelight:iron_knife
+      count: 1
+  farmersdelight:chocolate_pie_from_slices:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:chocolate_pie_slice
+    result:
+      id: farmersdelight:chocolate_pie
+      count: 1
+  farmersdelight:pumpkin_pie_from_slices:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:pumpkin_pie_slice
+    result:
+      id: minecraft:pumpkin_pie
+      count: 1
+  farmersdelight:beef_patty_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:minced_beef
+    result:
+      id: farmersdelight:beef_patty
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:canvas_from_canvas_rug:
+    type: shapeless
+    ingredients:
+    - farmersdelight:canvas_rug
+    - farmersdelight:canvas_rug
+    result:
+      id: farmersdelight:canvas
+      count: 1
+  farmersdelight:cooked_chicken_cuts_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:chicken_cuts
+    result:
+      id: farmersdelight:cooked_chicken_cuts
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:fruit_salad:
+    type: shapeless
+    ingredients:
+    - minecraft:apple
+    - minecraft:melon_slice
+    - minecraft:melon_slice
+    - minecraft:sweet_berries
+    - minecraft:sweet_berries
+    - farmersdelight:pumpkin_slice
+    - minecraft:bowl
+    result:
+      id: farmersdelight:fruit_salad
+      count: 1
+  farmersdelight:carrot_from_crate:
+    type: shapeless
+    ingredients:
+    - farmersdelight:carrot_crate
+    result:
+      id: minecraft:carrot
+      count: 9
+  farmersdelight:bamboo_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:bamboo_trapdoor
+      _: minecraft:bamboo_slab
+    result:
+      id: farmersdelight:bamboo_cabinet
+      count: 1
+  farmersdelight:rice_roll_medley_block:
+    type: shapeless
+    ingredients:
+    - farmersdelight:kelp_roll_slice
+    - farmersdelight:kelp_roll_slice
+    - farmersdelight:kelp_roll_slice
+    - farmersdelight:salmon_roll
+    - farmersdelight:salmon_roll
+    - farmersdelight:salmon_roll
+    - farmersdelight:cod_roll
+    - minecraft:bowl
+    - farmersdelight:cod_roll
+    result:
+      id: farmersdelight:rice_roll_medley_block
+      count: 1
+  farmersdelight:packed_mud_from_straw:
+    type: shapeless
+    ingredients:
+    - farmersdelight:straw
+    - minecraft:mud
+    - minecraft:mud
+    result:
+      id: minecraft:packed_mud
+      count: 2
+  farmersdelight:apple_pie_from_slices:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:apple_pie_slice
+    result:
+      id: farmersdelight:apple_pie
+      count: 1
+  farmersdelight:pumpkin_seeds_from_slice:
+    type: shapeless
+    ingredients:
+    - farmersdelight:pumpkin_slice
+    result:
+      id: minecraft:pumpkin_seeds
+      count: 1
+  farmersdelight:horse_feed:
+    type: shapeless
+    ingredients:
+    - minecraft:hay_block
+    - minecraft:apple
+    - minecraft:apple
+    - minecraft:golden_carrot
+    result:
+      id: farmersdelight:horse_feed
+      count: 1
+  farmersdelight:beetroot_from_crate:
+    type: shapeless
+    ingredients:
+    - farmersdelight:beetroot_crate
+    result:
+      id: minecraft:beetroot
+      count: 9
+  farmersdelight:cooked_cod_slice:
+    type: smelting
+    ingredient: farmersdelight:cod_slice
+    result:
+      id: farmersdelight:cooked_cod_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:bread_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:wheat_dough
+    result:
+      id: minecraft:bread
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:iron_nugget_from_blasting_knife:
+    type: blasting
+    ingredient: farmersdelight:iron_knife
+    result:
+      id: minecraft:iron_nugget
+      count: 1
+    experience: 0.1
+    cookingtime: 100
+  farmersdelight:rice_panicle:
+    type: shapeless
+    ingredients:
+    - farmersdelight:rice_bale
+    result:
+      id: farmersdelight:rice_panicle
+      count: 9
+  farmersdelight:fried_egg_from_smoking:
+    type: smoking
+    ingredient: minecraft:egg
+    result:
+      id: farmersdelight:fried_egg
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:scaffolding_from_canvas:
+    type: shaped
+    pattern:
+    - b#b
+    - b b
+    - b b
+    ingredients:
+      '#': farmersdelight:canvas
+      b: minecraft:bamboo
+    result:
+      id: minecraft:scaffolding
+      count: 6
+  farmersdelight:hamburger:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - farmersdelight:beef_patty
+    - farmersdelight:cabbage
+    - farmersdelight:tomato
+    - farmersdelight:onion
+    result:
+      id: farmersdelight:hamburger
+      count: 1
+  farmersdelight:beef_patty_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:minced_beef
+    result:
+      id: farmersdelight:beef_patty
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:apple_pie:
+    type: shaped
+    pattern:
+    - '###'
+    - aaa
+    - xOx
+    ingredients:
+      '#': minecraft:wheat
+      O: farmersdelight:pie_crust
+      a: minecraft:apple
+      x: minecraft:sugar
+    result:
+      id: farmersdelight:apple_pie
+      count: 1
+  farmersdelight:kelp_roll:
+    type: shaped
+    pattern:
+    - RXR
+    - '###'
+    ingredients:
+      '#': minecraft:dried_kelp
+      R: farmersdelight:cooked_rice
+      X: minecraft:carrot
+    result:
+      id: farmersdelight:kelp_roll
+      count: 1
+  farmersdelight:steak_and_potatoes:
+    type: shapeless
+    ingredients:
+    - minecraft:baked_potato
+    - minecraft:cooked_beef
+    - minecraft:bowl
+    - farmersdelight:onion
+    - farmersdelight:cooked_rice
+    result:
+      id: farmersdelight:steak_and_potatoes
+      count: 1
+  farmersdelight:cabbage_from_leaves:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cabbage_leaf
+    - farmersdelight:cabbage_leaf
+    result:
+      id: farmersdelight:cabbage
+      count: 1
+  farmersdelight:honey_cookie:
+    type: shapeless
+    ingredients:
+    - minecraft:honey_bottle
+    - minecraft:wheat
+    - minecraft:wheat
+    result:
+      id: farmersdelight:honey_cookie
+      count: 8
+  farmersdelight:canvas:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:straw
+    result:
+      id: farmersdelight:canvas
+      count: 1
+  farmersdelight:cod_roll:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cod_slice
+    - farmersdelight:cod_slice
+    - farmersdelight:cooked_rice
+    result:
+      id: farmersdelight:cod_roll
+      count: 2
+  farmersdelight:iron_nugget_from_smelting_knife:
+    type: smelting
+    ingredient: farmersdelight:iron_knife
+    result:
+      id: minecraft:iron_nugget
+      count: 1
+    experience: 0.1
+    cookingtime: 200
+  farmersdelight:diamond_knife:
+    type: shaped
+    pattern:
+    - m
+    - s
+    ingredients:
+      m: minecraft:diamond
+      s: minecraft:stick
+    result:
+      id: farmersdelight:diamond_knife
+      count: 1
+  farmersdelight:pumpkin_pie_from_pie_crust:
+    type: shaped
+    pattern:
+    - cec
+    - csc
+    - ' O '
+    ingredients:
+      O: farmersdelight:pie_crust
+      c: farmersdelight:pumpkin_slice
+      e: minecraft:egg
+      s: minecraft:sugar
+    result:
+      id: minecraft:pumpkin_pie
+      count: 2
+  farmersdelight:cooked_salmon_slice_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:salmon_slice
+    result:
+      id: farmersdelight:cooked_salmon_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:cutting_board:
+    type: shaped
+    pattern:
+    - /##
+    - /##
+    ingredients:
+      '#': '#minecraft:planks'
+      /: minecraft:stick
+    result:
+      id: farmersdelight:cutting_board
+      count: 1
+  farmersdelight:cabbage_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:cabbage
+    result:
+      id: farmersdelight:cabbage_crate
+      count: 1
+  farmersdelight:mixed_salad:
+    type: shapeless
+    ingredients:
+    - farmersdelight:cabbage
+    - farmersdelight:tomato
+    - minecraft:beetroot
+    - minecraft:bowl
+    result:
+      id: farmersdelight:mixed_salad
+      count: 1
+  farmersdelight:wheat_dough_from_egg:
+    type: shapeless
+    ingredients:
+    - minecraft:wheat
+    - minecraft:wheat
+    - minecraft:wheat
+    - minecraft:egg
+    result:
+      id: farmersdelight:wheat_dough
+      count: 3
+  farmersdelight:mutton_wrap:
+    type: shapeless
+    ingredients:
+    - minecraft:bread
+    - minecraft:cooked_mutton
+    - farmersdelight:cabbage
+    - farmersdelight:onion
+    result:
+      id: farmersdelight:mutton_wrap
+      count: 1
+  farmersdelight:salmon_roll:
+    type: shapeless
+    ingredients:
+    - farmersdelight:salmon_slice
+    - farmersdelight:salmon_slice
+    - farmersdelight:cooked_rice
+    result:
+      id: farmersdelight:salmon_roll
+      count: 2
+  farmersdelight:bread_from_smelting:
+    type: smelting
+    ingredient: farmersdelight:wheat_dough
+    result:
+      id: minecraft:bread
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:jungle_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:jungle_trapdoor
+      _: minecraft:jungle_slab
+    result:
+      id: farmersdelight:jungle_cabinet
+      count: 1
+  farmersdelight:fried_egg_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: minecraft:egg
+    result:
+      id: farmersdelight:fried_egg
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:sweet_berry_cheesecake_from_slices:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:sweet_berry_cheesecake_slice
+    result:
+      id: farmersdelight:sweet_berry_cheesecake
+      count: 1
+  farmersdelight:cooked_mutton_chops:
+    type: smelting
+    ingredient: farmersdelight:mutton_chops
+    result:
+      id: farmersdelight:cooked_mutton_chops
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:cooked_mutton_chops_from_smoking:
+    type: smoking
+    ingredient: farmersdelight:mutton_chops
+    result:
+      id: farmersdelight:cooked_mutton_chops
+      count: 1
+    experience: 0.35
+    cookingtime: 100
+  farmersdelight:bamboo_basket:
+    type: shaped
+    pattern:
+    - / /
+    - '# #'
+    - /#/
+    ingredients:
+      '#': farmersdelight:canvas
+      /: minecraft:bamboo
+    result:
+      id: farmersdelight:bamboo_basket
+      count: 1
+  farmersdelight:spruce_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:spruce_trapdoor
+      _: minecraft:spruce_slab
+    result:
+      id: farmersdelight:spruce_cabinet
+      count: 1
+  farmersdelight:straw_bale:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:straw
+    result:
+      id: farmersdelight:straw_bale
+      count: 1
+  farmersdelight:birch_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:birch_trapdoor
+      _: minecraft:birch_slab
+    result:
+      id: farmersdelight:birch_cabinet
+      count: 1
+  farmersdelight:chocolate_pie:
+    type: shaped
+    pattern:
+    - ccc
+    - mmm
+    - xOx
+    ingredients:
+      O: farmersdelight:pie_crust
+      c: minecraft:cocoa_beans
+      m: minecraft:milk_bucket
+      x: minecraft:sugar
+    result:
+      id: farmersdelight:chocolate_pie
+      count: 1
+  farmersdelight:cake_from_milk_bottle:
+    type: shaped
+    pattern:
+    - mmm
+    - ses
+    - www
+    ingredients:
+      e: minecraft:egg
+      m: minecraft:milk_bucket
+      s: minecraft:sugar
+      w: minecraft:wheat
+    result:
+      id: minecraft:cake
+      count: 1
+  farmersdelight:stove:
+    type: shaped
+    pattern:
+    - iii
+    - B B
+    - BCB
+    ingredients:
+      B: minecraft:bricks
+      C: minecraft:campfire
+      i: minecraft:iron_ingot
+    result:
+      id: farmersdelight:stove
+      count: 1
+  farmersdelight:rice_bag:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:rice
+    result:
+      id: farmersdelight:rice_bag
+      count: 1
+  farmersdelight:tomato_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': farmersdelight:tomato
+    result:
+      id: farmersdelight:tomato_crate
+      count: 1
+  farmersdelight:wooden_basket:
+    type: shaped
+    pattern:
+    - / /
+    - '# #'
+    - /#/
+    ingredients:
+      '#': farmersdelight:canvas
+      /: minecraft:stick
+    result:
+      id: farmersdelight:wooden_basket
+      count: 1
+  farmersdelight:gleaming_salad_block:
+    type: shapeless
+    ingredients:
+    - minecraft:glow_berries
+    - minecraft:honey_bottle
+    - minecraft:glow_berries
+    - farmersdelight:tomato
+    - minecraft:golden_carrot
+    - minecraft:beetroot
+    - farmersdelight:cabbage
+    - minecraft:bowl
+    - farmersdelight:cabbage
+    result:
+      id: farmersdelight:gleaming_salad_block
+      count: 1
+  farmersdelight:cooked_cod_slice_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:cod_slice
+    result:
+      id: farmersdelight:cooked_cod_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:rope_fence:
+    type: shaped
+    pattern:
+    - r/r
+    - r/r
+    ingredients:
+      /: minecraft:stick
+      r: farmersdelight:rope
+    result:
+      id: farmersdelight:rope_fence
+      count: 3
+  farmersdelight:milk_bucket_from_bottles:
+    type: shapeless
+    ingredients:
+    - minecraft:bucket
+    - farmersdelight:milk_bottle
+    - farmersdelight:milk_bottle
+    - farmersdelight:milk_bottle
+    - farmersdelight:milk_bottle
+    result:
+      id: minecraft:milk_bucket
+      count: 1
+  farmersdelight:crimson_cabinet:
+    type: shaped
+    pattern:
+    - ___
+    - D D
+    - ___
+    ingredients:
+      D: minecraft:crimson_trapdoor
+      _: minecraft:crimson_slab
+    result:
+      id: farmersdelight:crimson_cabinet
+      count: 1
+  farmersdelight:flint_knife:
+    type: shaped
+    pattern:
+    - m
+    - s
+    ingredients:
+      m: minecraft:flint
+      s: minecraft:stick
+    result:
+      id: farmersdelight:flint_knife
+      count: 1
+  farmersdelight:hanging_canvas_sign:
+    type: shaped
+    pattern:
+    - X X
+    - w#w
+    - w#w
+    ingredients:
+      '#': farmersdelight:canvas
+      X: minecraft:iron_chain
+      w: '#minecraft:logs'
+    result:
+      id: farmersdelight:hanging_canvas_sign
+      count: 6
+  farmersdelight:pumpkin_from_slices:
+    type: shaped
+    pattern:
+    - '##'
+    - '##'
+    ingredients:
+      '#': farmersdelight:pumpkin_slice
+    result:
+      id: minecraft:pumpkin
+      count: 1
+  farmersdelight:cooked_salmon_slice:
+    type: smelting
+    ingredient: farmersdelight:salmon_slice
+    result:
+      id: farmersdelight:cooked_salmon_slice
+      count: 1
+    experience: 0.35
+    cookingtime: 200
+  farmersdelight:carrot_crate:
+    type: shaped
+    pattern:
+    - '###'
+    - '###'
+    - '###'
+    ingredients:
+      '#': minecraft:carrot
+    result:
+      id: farmersdelight:carrot_crate
+      count: 1
+  farmersdelight:golden_knife:
+    type: shaped
+    pattern:
+    - m
+    - s
+    ingredients:
+      m: minecraft:gold_ingot
+      s: minecraft:stick
+    result:
+      id: farmersdelight:golden_knife
+      count: 1
+  farmersdelight:cooked_bacon_from_campfire_cooking:
+    type: campfire_cooking
+    ingredient: farmersdelight:bacon
+    result:
+      id: farmersdelight:cooked_bacon
+      count: 1
+    experience: 0.35
+    cookingtime: 600
+  farmersdelight:honey_glazed_ham_block:
+    type: shapeless
+    ingredients:
+    - minecraft:sweet_berries
+    - minecraft:honey_bottle
+    - minecraft:sweet_berries
+    - minecraft:sweet_berries
+    - farmersdelight:smoked_ham
+    - minecraft:sweet_berries
+    - farmersdelight:cooked_rice
+    - minecraft:bowl
+    - farmersdelight:cooked_rice
+    result:
+      id: farmersdelight:honey_glazed_ham_block
+      count: 1
+  farmersdelight:bacon_and_eggs:
+    type: shapeless
+    ingredients:
+    - minecraft:cooked_porkchop
+    - minecraft:cooked_porkchop
+    - minecraft:bowl
+    - farmersdelight:fried_egg
+    - farmersdelight:fried_egg
+    result:
+      id: farmersdelight:bacon_and_eggs
+      count: 1
