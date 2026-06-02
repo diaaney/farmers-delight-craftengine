@@ -1,0 +1,8 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# CraftEngine generates these at runtime — not part of the distributable
+plugins/CraftEngine/generated/
+plugins/CraftEngine/cache/
